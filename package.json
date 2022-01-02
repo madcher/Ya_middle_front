@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
     "parcel": "^2.0.1"
   }
 }

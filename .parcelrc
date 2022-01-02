@@ -1,0 +1,7 @@
+// .parcelrc
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.hbs": ["@anikin/parcel-transformer-handlebars"]
+  }
+}
