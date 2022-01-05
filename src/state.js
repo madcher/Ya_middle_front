@@ -1,10 +1,12 @@
-import { Content } from "./index";
+import { App } from "./index";
 
 const state = {};
 
+state.count = 1;
+state.route = '';
 const update = () => {
     const fn = () => '';
-    const content = Content || fn;
+    const content = App || fn;
     const root = document.querySelector('#root');
     root.innerHTML = content();
 }
@@ -13,6 +15,5 @@ export const _state = new Proxy(state, {
     set(target, property, value, receiver) {
         target[property] = value;
         update();
-        console.log('111');
     }
 });

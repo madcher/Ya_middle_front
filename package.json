@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "./node_modules/.bin/parcel index.html",
+    "dev": "./node_modules/.bin/parcel index.html --dist-dir ./build",
     "build": "./node_modules/.bin/parcel build index.html --dist-dir ./build"
   },
   "keywords": [],
